@@ -4,7 +4,7 @@
   ImageRepository.standardbank.ImageView_UnnamedCtrl7.Touch(92, 87); // Touch the paycontact module
   ImageRepository.standardbank.View_UnnamedCtrl8.Touch(78, 130);
   Delay(500)
-  OCR.Recognize(Mobile.Device()).BlockByText("Moses").Touch();
+  OCR.Recognize(Mobile.Device()).BlockByText("MyNkosiB").Touch();
   OCR.Recognize(Mobile.Device()).BlockByText("Next").Touch();
   Delay(500)
   ImageRepository.standardbank.ViewGroup_UnnamedCtrl13.Touch(106, 84);
