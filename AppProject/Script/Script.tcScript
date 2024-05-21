@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="DDTDriver" key="{BF0B6EB0-C98B-4239-83B0-0D5D11253AB3}" path="DDTDriver.js" />
+		<child name="DataDrivenTest" key="{00C04486-BD92-4C02-B62A-2C9240B56599}" path="DataDrivenTest.js" />
+	</children>
+</Root>

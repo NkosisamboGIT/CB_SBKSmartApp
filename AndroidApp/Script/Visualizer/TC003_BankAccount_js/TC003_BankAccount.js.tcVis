@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{71AB63D7-2117-4341-A456-6C65DAE56C56}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="1" dateTime="45415.5714525926" objectName="" objectLeft="0" objectTop="0" objectRight="0" objectBottom="0" clickPointX="675" clickPointY="901" imageFileName="AndroidVisualizer0.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="1" dateTime="45415.5715344329" objectName="" objectLeft="80" objectTop="1306" objectRight="898" objectBottom="1354" clickPointX="433" clickPointY="1325" imageFileName="AndroidVisualizer1.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="14" kind="1" dateTime="45415.5721446875" objectName="" objectLeft="869" objectTop="1609" objectRight="999" objectBottom="1648" clickPointX="922" clickPointY="1630" imageFileName="AndroidVisualizer20.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="16" kind="1" dateTime="45415.5722050694" objectName="" objectLeft="481" objectTop="1974" objectRight="603" objectBottom="2016" clickPointX="572" clickPointY="1980" imageFileName="AndroidVisualizer21.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="18" kind="1" dateTime="45415.5722419676" objectName="" objectLeft="703" objectTop="1973" objectRight="908" objectBottom="2017" clickPointX="810" clickPointY="2002" imageFileName="AndroidVisualizer22.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="20" kind="1" dateTime="45415.5723914931" objectName="" objectLeft="461" objectTop="1974" objectRight="618" objectBottom="2013" clickPointX="552" clickPointY="2002" imageFileName="AndroidVisualizer23.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

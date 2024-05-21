@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{19682FD9-78D1-4EEC-98CA-F22D2B9335FC}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="android_app_launcher" />
+	<testData />
+	<data>
+		<item caption="TextView_Unayo" moniker="{C3D6A0BE-2868-42E9-8271-50DF30158DD2}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\TextView_Unayo.png" initialHash="E5237B5B" selectionLeft="643" selectionTop="1124" selectionWidth="196" selectionHeight="287" initialLeft="643" initialTop="1124" initialWidth="196" initialHeight="287" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+		</item>
+		<item caption="TextView_Unayo1" moniker="{55B30162-D72E-40AC-972B-FEBADA0F0B6E}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\TextView_Unayo1.png" initialHash="00000000" selectionLeft="643" selectionTop="1124" selectionWidth="196" selectionHeight="287" initialLeft="643" initialTop="1124" initialWidth="196" initialHeight="287" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+		</item>
+	</data>
+</Root>

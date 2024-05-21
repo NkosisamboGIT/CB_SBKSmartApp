@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{20A9ABDB-221E-4C0A-8287-E6FBB9018579}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="ms_teams" Key="{1E33566C-08B7-4C43-B354-40B0F16D8377}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ms-teams" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndTeamsWebView" Key="{9C1ACFC8-AF62-4BC5-9DA2-8A2C51A7D4AB}">
+								<TypeInfo Item0="{317A821E-D6B4-45F4-8DCB-458E3B3BADB9}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TeamsWebView" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Microsoft Teams" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndTeamsWebView2" Key="{2CABB38C-F9DC-4E42-AEC6-5921897A7AFA}">
+								<TypeInfo Item0="{BC453D19-B533-4CC4-B364-FE5EDD3EFCAE}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TeamsWebView" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="CB Ops team call | Microsoft Teams" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_WidgetWin_0" Key="{B5E34F48-C314-4033-86DD-70C8265E67F5}">
+										<TypeInfo Item0="{A1B15002-0EB6-4981-9A36-CAFFC2900EDF}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_WidgetWin_0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Chrome_WidgetWin_1" Key="{70CB4C43-3825-40F9-9049-AE88191FA98B}">
+												<Image FileName="1570856691" Left="8" Top="0" Right="310" Bottom="246" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Chrome_WidgetWin_1" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="CB Ops team call | Microsoft Teams" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Chrome_RenderWidgetHostHWND" Key="{1BEA121C-C9D3-4B1C-B7E1-EC3BD5E607B7}">
+														<Image FileName="1570856691" Left="8" Top="0" Right="310" Bottom="246" />
+														<TypeInfo Item0="{A1B15002-0EB6-4981-9A36-CAFFC2900EDF}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Chrome_RenderWidgetHostHWND" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Chrome Legacy Window" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndTeamsWebView3" Key="{76443707-F761-4615-A006-34E7D7D7D0B7}">
+								<TypeInfo Item0="{BC453D19-B533-4CC4-B364-FE5EDD3EFCAE}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TeamsWebView" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="CB Ops team call | Microsoft Teams" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="4" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_WidgetWin_0" Key="{689AE6D4-0BE3-44FE-8F01-9D2BFA6F1C45}">
+										<TypeInfo Item0="{A1B15002-0EB6-4981-9A36-CAFFC2900EDF}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_WidgetWin_0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Chrome_WidgetWin_1" Key="{990175A0-8EAD-4EAD-9B35-A61797D5625E}">
+												<Image FileName="-1887400758" Left="0" Top="0" Right="2560" Bottom="1392" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Chrome_WidgetWin_1" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="CB Ops team call | Microsoft Teams" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Chrome_RenderWidgetHostHWND" Key="{80798FD7-5072-4C0A-99AE-3C9533DD6B1C}">
+														<Image FileName="-1887400758" Left="0" Top="0" Right="2560" Bottom="1392" />
+														<TypeInfo Item0="{A1B15002-0EB6-4981-9A36-CAFFC2900EDF}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Chrome_RenderWidgetHostHWND" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Chrome Legacy Window" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{93061F1D-80CD-4A72-8902-7F9CF61629EE}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_SecondaryTrayWnd" Key="{340BD96A-45F4-4613-A0BC-D3C1619B1255}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_SecondaryTrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{DE38FBA7-C7C3-49C2-860D-EA9B46E4BDED}">
+										<TypeInfo Item0="{A1B15002-0EB6-4981-9A36-CAFFC2900EDF}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndTaskListThumbnailWnd" Key="{A2AC4D5E-D223-4398-BA12-70FF273BEE93}">
+								<Image FileName="2097695973" Left="0" Top="0" Right="407" Bottom="203" />
+								<TypeInfo Item0="{317A821E-D6B4-45F4-8DCB-458E3B3BADB9}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TaskListThumbnailWnd" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndTaskListThumbnailWnd2" Key="{66DF6BFC-B00B-4FD7-8D32-32D32104F2FB}">
+								<Image FileName="-1532462401" Left="0" Top="0" Right="407" Bottom="203" />
+								<TypeInfo Item0="{317A821E-D6B4-45F4-8DCB-458E3B3BADB9}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TaskListThumbnailWnd" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="2" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndShell_TrayWnd" Key="{F61C30D6-CB9B-4339-82F9-A62DD7F1B4E9}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{4F515D6B-EEA7-4A71-AB63-FB380C51734B}">
+										<TypeInfo Item0="{A1B15002-0EB6-4981-9A36-CAFFC2900EDF}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{8F059128-03F7-4832-8453-FA58E1F497AD}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{5AEA162B-ED9E-4FD3-B712-5C342D8E6F25}">
+								<Image FileName="-1146853773" Left="-9" Top="-9" Right="1929" Bottom="1029" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageInbox115Nkosisambocb1GmailCo" Key="{52957331-ACF7-42C7-85B7-0EC06E7C9D71}">
+								<Image FileName="-1146853773" Left="0" Top="151" Right="1920" Bottom="1063" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://mail.google.com/mail/u/0/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode15z" Key="{6E990AA5-232C-41AD-B0E2-A40CAD877457}">
+										<Image FileName="-1146853773" Left="756" Top="769" Right="1672" Bottom="804" />
+										<TypeInfo Item0="{074CAE6D-CCBE-43FF-B5F8-0328EAB71F42}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Study online and excel in Human Resource Management&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//tr[9]/td//span[contains(@class, &apos;y2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[9]/td[5]/div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="ms_teams" Owner="{1E33566C-08B7-4C43-B354-40B0F16D8377}">
+			<Child Name="wndTeamsWebView" Owner="{9C1ACFC8-AF62-4BC5-9DA2-8A2C51A7D4AB}" />
+			<Child Name="wndTeamsWebView2" Owner="{2CABB38C-F9DC-4E42-AEC6-5921897A7AFA}">
+				<Child Name="Chrome_WidgetWin_0" Owner="{B5E34F48-C314-4033-86DD-70C8265E67F5}">
+					<Child Name="Chrome_WidgetWin_1" Owner="{70CB4C43-3825-40F9-9049-AE88191FA98B}">
+						<Child Name="Chrome_RenderWidgetHostHWND" Owner="{1BEA121C-C9D3-4B1C-B7E1-EC3BD5E607B7}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndTeamsWebView3" Owner="{76443707-F761-4615-A006-34E7D7D7D0B7}">
+				<Child Name="Chrome_WidgetWin_0" Owner="{689AE6D4-0BE3-44FE-8F01-9D2BFA6F1C45}">
+					<Child Name="Chrome_WidgetWin_1" Owner="{990175A0-8EAD-4EAD-9B35-A61797D5625E}">
+						<Child Name="Chrome_RenderWidgetHostHWND" Owner="{80798FD7-5072-4C0A-99AE-3C9533DD6B1C}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{93061F1D-80CD-4A72-8902-7F9CF61629EE}">
+			<Child Name="wndShell_SecondaryTrayWnd" Owner="{340BD96A-45F4-4613-A0BC-D3C1619B1255}">
+				<Child Name="DesktopWindowXamlSource" Owner="{DE38FBA7-C7C3-49C2-860D-EA9B46E4BDED}" />
+			</Child>
+			<Child Name="wndTaskListThumbnailWnd" Owner="{A2AC4D5E-D223-4398-BA12-70FF273BEE93}" />
+			<Child Name="wndTaskListThumbnailWnd2" Owner="{66DF6BFC-B00B-4FD7-8D32-32D32104F2FB}" />
+			<Child Name="wndShell_TrayWnd" Owner="{F61C30D6-CB9B-4339-82F9-A62DD7F1B4E9}">
+				<Child Name="DesktopWindowXamlSource" Owner="{4F515D6B-EEA7-4A71-AB63-FB380C51734B}" />
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{8F059128-03F7-4832-8453-FA58E1F497AD}">
+			<Child Name="BrowserWindow" Owner="{5AEA162B-ED9E-4FD3-B712-5C342D8E6F25}" />
+			<Child Name="pageInbox115Nkosisambocb1GmailCo" Owner="{52957331-ACF7-42C7-85B7-0EC06E7C9D71}">
+				<Child Name="textnode15z" Owner="{6E990AA5-232C-41AD-B0E2-A40CAD877457}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

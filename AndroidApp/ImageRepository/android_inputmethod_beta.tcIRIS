@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{C549FD4A-CC90-40F5-A885-1BE743B7EEFB}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="android_inputmethod_beta" />
+	<testData />
+	<data>
+		<item caption="RelativeLayout_UnnamedCtrl" moniker="{2BB3D297-AF82-4B75-9890-20C6B69741DE}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\RelativeLayout_UnnamedCtrl.png" initialHash="00000000" selectionLeft="0" selectionTop="63" selectionWidth="1080" selectionHeight="2031" initialLeft="0" initialTop="63" initialWidth="1080" initialHeight="2031" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+		</item>
+	</data>
+</Root>

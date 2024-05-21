@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="1.TestDataExcell">
+			<child name="DDTDriver" key="{68E2F4B2-07C7-4DB4-A979-FAED37DE7123}" path="DDTDriver.js" />
+		</folder>
+		<folder name="2.TestCases">
+			<child name="TC000_LogInSBK" key="{DB17C859-01E5-4A53-8777-8E6D0D8A9B5A}" path="TC000_LogInSBK.js" />
+			<child name="TC001_PayContacts" key="{7570C1CE-AE49-45C2-BEF0-F694393DFD37}" path="TC001_PayContacts.js" />
+			<child name="TC002_SendMoneySBK" key="{44F2AABF-5487-478D-8682-57E71ADCCB32}" path="TC002_SendMoneySBK.js" />
+			<child name="TC003_BankAccount" key="{71AB63D7-2117-4341-A456-6C65DAE56C56}" path="TC003_BankAccount.js" />
+			<child name="TC004_MyBills" key="{89E863C9-C9FA-4BF0-9DA7-58B82D54A9B6}" path="TC004_MyBills.js" />
+			<child name="TC005_Pay_for_Goods" key="{75DD7C3F-EA0D-4E14-BB46-325569150F27}" path="TC005_Pay_for_Goods.js" />
+			<child name="TC006_AcceptPayment" key="{D5CE3FCD-BE11-4E7D-A341-2475F1EB4BC4}" path="TC006_AcceptPayment.js" />
+			<child name="TC007_CashInSBK" key="{3BEB373B-7D7B-4573-921D-E195FEC55EE9}" path="TC007_CashInSBK.js" />
+			<child name="TC008_CashOutSBK" key="{9DCF7E71-A0BE-4D2B-8BF2-AB08F9E27EFB}" path="TC008_CashOutSBK.js" />
+			<child name="TC009_Transfer" key="{CE186AC0-8AD5-4CD6-BF4B-C8ECF3425AAD}" path="TC009_Transfer.js" />
+			<child name="TC013_View_Transactions" key="{91AB85E5-216D-4D90-AAE9-65EE90453CCC}" path="TC013_View_Transactions.js" />
+			<child name="TC014_End2End_Transactions" key="{724E1083-4E46-4815-9ECE-6F911E7E4AA4}" path="TC014_End2End_Transactions.js" />
+			<child name="TC012_Buy_PrepaidElectricity" key="{5BA5C652-B665-44C0-9A3A-9A6B8040416A}" path="TC012_Buy_PrepaidElectricity.js" />
+			<child name="TC011_Buy_VAS_Airtime" key="{015FF951-8C62-4884-8E70-F471A7585CEE}" path="TC011_Buy_VAS_Airtime.js" />
+		</folder>
+		<folder name="3.TestScripts">
+			<child name="SC000_LogInSBK" key="{5BC6D970-3D9A-41C7-93A5-A6C7BA2976B9}" path="SC000_LogInSBK.js" />
+			<child name="SC001_PayContacts" key="{6801CB84-6B84-47D4-9D6B-9643CCE73427}" path="SC001_PayContacts.js" />
+			<child name="SC002_SendMoneySBK" key="{C532C293-7088-4A04-BE15-DBF88FB21980}" path="SC002_SendMoneySBK.js" />
+			<child name="SC003_BankAccount" key="{E7AA3F23-3A2C-42F0-97B7-76CCFD0026FB}" path="SC003_BankAccount.js" />
+			<child name="SC004_MyBills" key="{2D29C22C-2094-4B08-8633-DF5200311125}" path="SC004_MyBills.js" />
+			<child name="SC005_Pay_for_Goods" key="{D5A24D1B-2BC7-4274-91F8-86F20115FE71}" path="SC005_Pay_for_Goods.js" />
+			<child name="SC006_AcceptPayment" key="{DC29F022-F460-4A78-805C-5F76433839A1}" path="SC006_AcceptPayment.js" />
+			<child name="SC007_CashInSBK" key="{FCECD3FD-3BC5-457E-BA18-84F7AD6DB2E7}" path="SC007_CashInSBK.js" />
+			<child name="SC008_CashOutSBK" key="{5A8CE872-1B2F-42BD-A445-CDDAFE549BFB}" path="SC008_CashOutSBK.js" />
+			<child name="SC009_Transfer" key="{D5A873C8-90B4-4FE9-A033-BCCF7036A3A9}" path="SC009_Transfer.js" />
+			<child name="SC010_View_Transactions" key="{C9D09F78-2659-4006-BB67-7E6DE3EA8886}" path="SC010_View_Transactions.js" />
+			<child name="SC011_Buy_VAS_Airtime" key="{20A2B732-EB32-43C5-9CFD-62EBB9ADA115}" path="SC011_Buy_VAS_Airtime.js" />
+			<child name="SC012_Buy_PrepaidElectricity" key="{62F03537-BB91-41A4-9B7B-362E9D7AEA1A}" path="SC012_Buy_PrepaidElectricity.js" />
+			<child name="SC013_End2End_Transactions" key="{3B6ED8FC-B8FF-4D9B-9AD2-E3527E5A6889}" path="SC013_End2End_Transactions.js" />
+		</folder>
+		<folder name="4.SendSummary">
+			<child name="Send_email" key="{FD453F07-FA38-438F-8DDF-9D7090F8D15E}" path="Send_email.js" />
+			<child name="ExportLog" key="{AAF781EE-71F5-47CC-BC22-F383AFC6EF08}" path="ExportLog.js" />
+		</folder>
+	</children>
+</Root>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{5EAB9115-2618-43F3-B5D3-0CE1AA17545D}">
+	<children>
+		<child name="AppProject" key="{803A016D-F72C-4187-9121-7D84F7B797A7}" path="AppProject\AppProject.mds" />
+		<child name="AndroidApp" key="{A836E76B-3CB9-45B1-A6F5-D3E15F7606D5}" path="AndroidApp\AndroidApp.mds" />
+	</children>
+	<testItems key="{381C7504-5904-4DBD-A616-165ED4836179}">
+		<children>
+			<testItem key="{803A016D-F72C-4187-9121-7D84F7B797A7}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{A836E76B-3CB9-45B1-A6F5-D3E15F7606D5}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{24755274-D73D-4CC5-A820-377FD0FEAD61}" />
+	<analysis key="{9079F62B-D3B2-43DA-9B4C-2B0DFB655AD8}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

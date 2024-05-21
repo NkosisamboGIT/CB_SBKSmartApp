@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{44F2AABF-5487-478D-8682-57E71ADCCB32}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="11" kind="1" dateTime="45349.6420112384" objectName="" objectLeft="0" objectTop="0" objectRight="1080" objectBottom="2220" clickPointX="-1" clickPointY="-1" imageFileName="AndroidVisualizer2.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="14" kind="1" dateTime="45349.6422388773" objectName="" objectLeft="0" objectTop="0" objectRight="1080" objectBottom="2220" clickPointX="-1" clickPointY="-1" imageFileName="AndroidVisualizer3.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
