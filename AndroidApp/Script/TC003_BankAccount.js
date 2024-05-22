@@ -5,11 +5,12 @@
   aqUtils.Delay(5000)
   OCR.Recognize(Mobile.Device()).BlockByText("Please enter account number").Touch(); //Enter the Bank Account
   // Enter the Account Number
-  Mobile.Device().Keys("4770000007719");
+  Mobile.Device().Keys("4100000007330");
   OCR.Recognize(Mobile.Device()).BlockByText("Done").Touch();
   // Enter the Amount
   aqUtils.Delay(5000)
-  ImageRepository.standardbank.EditText_0Dot002.Touch(137, 79);
+  //ImageRepository.standardbank.EditText_0Dot002.Touch(137, 79);
+  ImageRepository.standardbank.EditText_0Dot007.Touch(185, 77);
   // Enter the value
   Mobile.Device().Keys("250"); // Value
   OCR.Recognize(Mobile.Device()).BlockByText("Done").Touch();
@@ -25,3 +26,11 @@
 }
 
 module.exports.TC003_BankAccount = TC003_BankAccount;
+
+//function Test1()
+//{
+//  Mobile.SetCurrent("SM-G965F");
+//  ImageRepository.standardbank.EditText_0Dot007.Touch(185, 77);
+//  ImageRepository.standardbank.View_UnnamedCtrl16.Touch(155, 66);
+//  OCR.Recognize(Mobile.Device()).BlockByText("Done").Touch();
+//}

@@ -280,7 +280,37 @@
 			<image imageFileName="Data\ViewGroup_UnnamedCtrl33.png" initialHash="6359D7CB" selectionLeft="40" selectionTop="557" selectionWidth="1002" selectionHeight="1189" initialLeft="40" initialTop="557" initialWidth="1002" initialHeight="1189" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
 		</item>
 		<item caption="ViewGroup_UnnamedCtrl34" moniker="{A377BF56-84D9-40F1-BC08-3D2B3C1ADD2A}" isComposite="True" simpleMode="True" currentImageIndex="0">
-			<image imageFileName="Data\ViewGroup_UnnamedCtrl34.png" initialHash="00000000" selectionLeft="40" selectionTop="557" selectionWidth="1002" selectionHeight="1189" initialLeft="40" initialTop="557" initialWidth="1002" initialHeight="1189" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+			<image imageFileName="Data\ViewGroup_UnnamedCtrl34.png" initialHash="B48A6CF0" selectionLeft="40" selectionTop="557" selectionWidth="1002" selectionHeight="1189" initialLeft="40" initialTop="557" initialWidth="1002" initialHeight="1189" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+		</item>
+		<item caption="EditText_0Dot007" moniker="{30D5C8F0-74B2-49AC-BA30-263C8E0A3237}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\EditText_0Dot007.png" initialHash="83160C8E" selectionLeft="122" selectionTop="1549" selectionWidth="920" selectionHeight="141" initialLeft="122" initialTop="1549" initialWidth="920" initialHeight="141" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+		</item>
+		<item caption="View_UnnamedCtrl16" moniker="{E239036F-45EB-41DD-BD47-CB0AD2A7FDC1}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\View_UnnamedCtrl16.png" initialHash="E0E9F54A" selectionLeft="0" selectionTop="1557" selectionWidth="1080" selectionHeight="188" initialLeft="0" initialTop="1557" initialWidth="1080" initialHeight="188" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+		</item>
+		<item caption="EditText_0Dot008" moniker="{B7D31775-5287-4ABB-B448-D9D5B04C774F}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\EditText_0Dot008.png" initialHash="93EE0FE2" selectionLeft="122" selectionTop="836" selectionWidth="920" selectionHeight="141" initialLeft="122" initialTop="836" initialWidth="920" initialHeight="141" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+		</item>
+		<item caption="EditText_0Dot009" moniker="{DE30BC22-F408-44BA-974E-24BC5C9FCB0D}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\EditText_0Dot009.png" initialHash="F200BD08" selectionLeft="136" selectionTop="1550" selectionWidth="906" selectionHeight="141" initialLeft="136" initialTop="1550" initialWidth="906" initialHeight="141" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+		</item>
+		<item caption="EditText_Plus277301" moniker="{880F7B82-DED2-4E9A-936F-DB1A27DCD5E6}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\EditText_Plus277301.png" initialHash="E80F8649" selectionLeft="80" selectionTop="853" selectionWidth="962" selectionHeight="117" initialLeft="80" initialTop="853" initialWidth="962" initialHeight="117" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+		</item>
+		<item caption="TextView_TNM" moniker="{72E12E68-41E4-4486-893B-838B7F4FA4FF}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\TextView_TNM.png" initialHash="EF3F0525" selectionLeft="81" selectionTop="873" selectionWidth="844" selectionHeight="79" initialLeft="81" initialTop="873" initialWidth="844" initialHeight="79" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+		</item>
+		<item caption="EditText_Plus2773011" moniker="{4B4193AB-EB8A-464F-AFB0-88BF19DE9843}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\EditText_Plus2773011.png" initialHash="BFC2D8BD" selectionLeft="80" selectionTop="1203" selectionWidth="962" selectionHeight="117" initialLeft="80" initialTop="1203" initialWidth="962" initialHeight="117" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+		</item>
+		<item caption="ImageView_UnnamedCtrl17" moniker="{C7C95CC6-5D60-423C-A3C2-2DE9B664331B}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\ImageView_UnnamedCtrl17.png" initialHash="4A6706F9" selectionLeft="924" selectionTop="853" selectionWidth="79" selectionHeight="78" initialLeft="924" initialTop="853" initialWidth="79" initialHeight="78" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+		</item>
+		<item caption="TextView_Own_amount" moniker="{F7A988B2-E309-4D3B-B5D1-E445FEF02364}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\TextView_Own_amount.png" initialHash="729C1E02" selectionLeft="67" selectionTop="1353" selectionWidth="949" selectionHeight="105" initialLeft="67" initialTop="1353" initialWidth="949" initialHeight="105" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+		</item>
+		<item caption="EditText_0Dot0010" moniker="{82C81C35-97BB-40F6-8047-082EBD86E995}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\EditText_0Dot0010.png" initialHash="00000000" selectionLeft="136" selectionTop="1360" selectionWidth="906" selectionHeight="141" initialLeft="136" initialTop="1360" initialWidth="906" initialHeight="141" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
 		</item>
 	</data>
 </Root>

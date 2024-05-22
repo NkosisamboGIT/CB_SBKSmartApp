@@ -7,7 +7,8 @@
   OCR.Recognize(Mobile.Device()).BlockByText("Generate payment voucher").Touch();
   // Click the Amount
   aqUtils.Delay(5000)
-  ImageRepository.standardbank.EditText_0Dot003.Touch(156, 63);
+  //ImageRepository.standardbank.EditText_0Dot003.Touch(156, 63);//Lesotho
+   ImageRepository.standardbank.EditText_0Dot008.Touch(140, 66); //Malawi
   // Enter the value
   Mobile.Device().Keys("250"); // Value
   OCR.Recognize(Mobile.Device()).BlockByText("Done").Touch();
@@ -22,3 +23,4 @@
   Log.Message("Generate Payment Voucher (Transaction created Successfully");
 }
 module.exports.TC005_Pay_for_Goods = TC005_Pay_for_Goods;
+
