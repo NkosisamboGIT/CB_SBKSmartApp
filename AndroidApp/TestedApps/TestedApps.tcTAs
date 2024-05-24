@@ -13,5 +13,14 @@
 			<testData />
 			<data />
 		</child>
+		<child key="{A31C372C-A0E8-4095-A3E4-B78E97986FE0}">
+			<config nodeName="com_cloudbadger_cloudbadger_2" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Android">
+					<param name="Android" parameters="" workFolder="" apkFileName="C:\Users\Nkosi\Downloads\com.cloudbadger.cloudbadger-2.apk" deploy="True" keepDataAndCache="False" grantPermissions="False" signAPKWithCustom="False" keystorePath="" alias="" keystorePassword="" keyPassword="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
 	</children>
 </Root>

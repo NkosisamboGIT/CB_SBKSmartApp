@@ -17,6 +17,7 @@ function TC002_SendMoneySBK()
   ImageRepository.standardbank.CheckBox_UnnamedCtrl.Touch();
   ImageRepository.standardbank.View_UnnamedCtrl5.Touch(567, 87);
   ImageRepository.standardbank.View_UnnamedCtrl5.Touch(565, 89);
+  Delay(5000);
   ImageRepository.standardbank.View_UnnamedCtrl6.Touch(225, 96);
   Delay(1890);
   ImageRepository.standardbank.View_UnnamedCtrl7.Touch(543, 89);

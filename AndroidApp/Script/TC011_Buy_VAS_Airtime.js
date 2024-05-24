@@ -1,6 +1,7 @@
 ﻿function TC011_Buy_VAS_Airtime()
 {
   // select to buy VAS
+  Delay(5000)
   ImageRepository.standardbank.ImageView_UnnamedCtrl14.Touch(90, 78); //Click Buy
   ImageRepository.standardbank.ImageView_UnnamedCtrl15.Touch(77, 115);// Click Airtime
   // Enter and clear the mobile number
@@ -37,7 +38,7 @@
   Mobile.Device().PressButton(mbkDel); //Clear the textbox
   aqUtils.Delay(2000)
   Mobile.Device().Keys("+27626829829");
-  aqUtils.Delay(2000)
+  aqUtils.Delay(8000)
   OCR.Recognize(Mobile.Device()).BlockByText("Done").Touch();
   // Enter the amount
   aqUtils.Delay(2000)

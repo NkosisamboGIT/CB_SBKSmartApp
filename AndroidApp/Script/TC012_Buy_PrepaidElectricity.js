@@ -13,7 +13,7 @@
   ImageRepository.standardbank.EditText_0Dot0010.Touch(134, 60);//MW
   Mobile.Device().Keys("400");
   OCR.Recognize(Mobile.Device()).BlockByText("Done").Touch();
-  aqUtils.Delay(5000)
+  aqUtils.Delay(8000)
   OCR.Recognize(Mobile.Device()).BlockByText("Next").Touch();
   aqUtils.Delay(5000)
   OCR.Recognize(Mobile.Device()).BlockByText("Confirm", spRightMost).Touch();
