@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="EditText_crc643f46942d9dd1fff9Forms" key="{EA5B48D6-E6C6-4D8E-8D3B-0EE433BB10F3}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="EditText_crc643f46942d9dd1fff9Forms" ID="{EA5B48D6-E6C6-4D8E-8D3B-0EE433BB10F3}" FileName="Regions\EditText_crc643f46942d9dd1fff9Forms.png" Update="False" />
+		</child>
+	</children>
+</Root>

@@ -37,7 +37,7 @@
   Delay(335);
   Mobile.Device().PressButton(mbkDel); //Clear the textbox
   aqUtils.Delay(2000)
-  Mobile.Device().Keys("+27626829829");
+  Mobile.Device().Keys("+265881004199");
   aqUtils.Delay(8000)
   OCR.Recognize(Mobile.Device()).BlockByText("Done").Touch();
   // Enter the amount

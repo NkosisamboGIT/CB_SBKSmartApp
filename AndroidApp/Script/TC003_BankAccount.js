@@ -1,6 +1,7 @@
 ﻿function TC003_BankAccount()
 {
   // Select Bank Account
+  aqUtils.Delay(5000)
   ImageRepository.standardbank.ImageView_UnnamedCtrl10.Touch(92, 112);
   aqUtils.Delay(5000)
   OCR.Recognize(Mobile.Device()).BlockByText("Please enter account number").Touch(); //Enter the Bank Account
@@ -27,10 +28,3 @@
 
 module.exports.TC003_BankAccount = TC003_BankAccount;
 
-//function Test1()
-//{
-//  Mobile.SetCurrent("SM-G965F");
-//  ImageRepository.standardbank.EditText_0Dot007.Touch(185, 77);
-//  ImageRepository.standardbank.View_UnnamedCtrl16.Touch(155, 66);
-//  OCR.Recognize(Mobile.Device()).BlockByText("Done").Touch();
-//}

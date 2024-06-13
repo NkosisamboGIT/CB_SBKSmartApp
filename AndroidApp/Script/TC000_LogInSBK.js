@@ -6,27 +6,28 @@
 function TC000_LogInSBK()
 {
    // Opening the SmartApp/seting up the SmartApp
-  Mobile.SetCurrent("SM-G965F"); 
+  Mobile.SetCurrent("emulator-5554"); 
    // Delay for 10 seconds
   aqUtils.Delay(5000)
-  ImageRepository.android_app_launcher.TextView_Unayo.Touch();
-  aqUtils.Delay(10000)
-  ImageRepository.standardbank.EditText_PIN.Touch(264, 52);
-  
-  // Declaring the variable that will be used to pass the value
-  var loginSmartApp = DDTDriver.getLoginByRow(2)
-  
-  aqUtils.Delay(500)
-  Mobile.Device().Keys(loginSmartApp.Username);
- // Mobile.Device().Keys(DDT.CurrentDriver.Value("PIN")); // Entering the PIN
-  Mobile.Device().Touch(838, 2153); // touch anywhere to hide the keyboard
-  ImageRepository.standardbank.View_UnnamedCtrl2.Touch(538, 95);
-  
-  //DDT.CloseDriver("PIN");
-  
- //Login message
- Log.Message("Logged in Successfully on the SmartApp");
-  }
+    ImageRepository.android_apps_nexuslauncher.TextView_Unayo.Touch();
+//  aqUtils.Delay(10000)
+//   editText.Touch(89, 46);
+//  //OCR.Recognize(editText).BlockByText("PIN").Touch();
+//  
+//  // Declaring the variable that will be used to pass the value
+//  
+//  aqUtils.Delay(500)
+//  Mobile.Device().Keys(loginSmartApp.Username);
+// // Mobile.Device().Keys(DDT.CurrentDriver.Value("PIN")); // Entering the PIN
+//  Mobile.Device().Touch(838, 2153); // touch anywhere to hide the keyboard
+//  OCR.Recognize(Mobile.Device()).BlockByText("Login").Touch();
+//  
+//  //DDT.CloseDriver("PIN");
+//  
+// //Login message
+// Log.Message("Logged in Successfully on the SmartApp");
+ }
 
 
 module.exports.TC000_LogInSBK = TC000_LogInSBK;
+

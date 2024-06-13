@@ -7,5 +7,6 @@
 		<child key="{19682FD9-78D1-4EEC-98CA-F22D2B9335FC}" path="android_app_launcher.tcIRIS" />
 		<child key="{477875E6-291B-4E9F-B4F0-AF7564998CBF}" path="standardbank.tcIRIS" />
 		<child key="{C549FD4A-CC90-40F5-A885-1BE743B7EEFB}" path="android_inputmethod_beta.tcIRIS" />
+		<child key="{5E82D037-1BA9-478E-AF00-36424C049BB9}" path="android_apps_nexuslauncher.tcIRIS" />
 	</children>
 </Root>

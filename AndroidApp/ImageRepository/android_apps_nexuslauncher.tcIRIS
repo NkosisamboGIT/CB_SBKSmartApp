@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{5E82D037-1BA9-478E-AF00-36424C049BB9}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="android_apps_nexuslauncher" />
+	<testData />
+	<data>
+		<item caption="TextView_Unayo" moniker="{3E4894E9-7D47-479E-A3DF-0B21112620C4}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\TextView_Unayo_1.png" initialHash="7A63384C" selectionLeft="439" selectionTop="1428" selectionWidth="202" selectionHeight="336" initialLeft="439" initialTop="1428" initialWidth="202" initialHeight="336" pixelTolerance="0" colorTolerance="0" deviceName="emulator-5554" />
+		</item>
+		<item caption="TextView_Unayo1" moniker="{535FDC5D-FFED-4EF0-9A93-BDEE3E1E39E3}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\TextView_Unayo1_1.png" initialHash="00000000" selectionLeft="439" selectionTop="1428" selectionWidth="202" selectionHeight="336" initialLeft="439" initialTop="1428" initialWidth="202" initialHeight="336" pixelTolerance="0" colorTolerance="0" deviceName="emulator-5554" />
+		</item>
+	</data>
+</Root>

@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
-		<child name="Script" key="{B94A35E1-3817-4E79-99A1-D8A7F03390A7}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
-		<child name="KeywordTests" key="{E85E01D2-321D-492F-A9DB-63C64E53A59B}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
-		<child name="ReadyAPI1" key="{6C5E4980-C132-4B4D-A1A9-A517A3037A14}" type="ReadyAPI or SoapUI" typeId="{D5F2AF2E-BADF-483C-AB3E-DE7F0B6FBB55}" pluginName="ReadyAPI Runner" path="ReadyAPI1\ReadyAPI1.tcReadyAPI" />
+		<child name="NameMapping" key="{FCEF38C6-DE10-48EE-B36C-B41AC5E6B670}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="Script" key="{2A3C732F-2B04-47B1-898D-A4CB8AF9AB88}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
+		<child name="KeywordTests" key="{EF66BDDE-F3AF-4A1D-8AEC-0762FD6F10B7}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="TestedApps" key="{259934EE-1145-45A4-A3BE-34C6C342DBA9}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		<child name="ImageRepository" key="{288E17FC-D3D8-4927-B59B-F61F965B7653}" type="Image Repository" typeId="{E7C36009-4A66-4899-99AE-DEFC5C22C057}" pluginName="" path="ImageRepository\ImageRepository.tcIR" />
+		<child name="Stores" key="{730441BB-34A2-40CE-93DE-0068ADA21379}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
-	<testItems key="{40CAB703-F7DF-499E-AE45-D512E5290904}" version="14">
+	<testItems key="{D68EC53B-9934-4EB8-A734-467FC02198EE}" version="14">
 		<children>
-			<testItem name="ProjectTestItem1" key="{1BDF3366-2306-4A01-888A-1129729536C9}" group="False" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="E2E_Transactions_SmartApp" key="{1BA02C3C-B880-4686-8955-7BD17AB37627}" group="False" parallel="False" enabled="True" testMoniker="{724E1083-4E46-4815-9ECE-6F911E7E4AA4}TC014_End2End_Transactions" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
 	</testItems>
-	<variables key="{B6430B20-2107-4E78-80E7-B772AB573AA8}" />
-	<settings key="{692A593E-6A69-4BB7-840E-21B0A0EAC316}">
+	<variables key="{136CC9D6-CEF8-4937-988F-7A58DB67A024}" />
+	<settings key="{B1099059-36E0-4D65-8898-4A1B9AFE8665}">
 		<settingsVersion value="15.64" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
@@ -44,11 +47,11 @@
 		<setting name="AzureDevOps_TeamProject" type="5" value="" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
 		<setting name="AzureDevOps_URL" type="5" value="" />
-		<setting name="BitBar_APIKey" type="5" value="" />
+		<setting name="BitBar_APIKey" type="5" value="3A02A0409CAF82BD00462B0A388D39C0579FB69DA89FC812C1F3219CC852D14FAA0FF68016080EA586C16E647C69D67A1ED3C4C7705A88F45810778B726D77CAD6" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
-		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
+		<setting name="BitBar_FindAndroidDevice" type="5" value="( API Level Equal to 32 )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
-		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="0" />
+		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="869" />
 		<setting name="BitBar_FRAMEWORKID_IOS" type="2" value="0" />
 		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
 		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
@@ -699,11 +702,11 @@
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{84F859E3-5A7C-4438-8C62-9AD593BCDFC9}" />
+	<analysis key="{2E3055F1-BCF5-49B6-ADB3-B5EF6492A3E1}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{8905CDEC-342F-4202-9033-54609DA6B96D}">
+	<issueTracking key="{F51E0FDE-09EC-4A45-BCF4-B116318186B4}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>

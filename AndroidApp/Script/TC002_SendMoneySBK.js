@@ -18,10 +18,16 @@ function TC002_SendMoneySBK()
   ImageRepository.standardbank.View_UnnamedCtrl5.Touch(567, 87);
   ImageRepository.standardbank.View_UnnamedCtrl5.Touch(565, 89);
   Delay(5000);
-  ImageRepository.standardbank.View_UnnamedCtrl6.Touch(225, 96);
-  Delay(1890);
-  ImageRepository.standardbank.View_UnnamedCtrl7.Touch(543, 89);
+//  ImageRepository.standardbank.View_UnnamedCtrl6.Touch(225, 96);
+//  Delay(1890);
+//  ImageRepository.standardbank.View_UnnamedCtrl7.Touch(543, 89);
+  OCR.Recognize(Mobile.Device()).BlockByText("Next").Touch();
+  aqUtils.Delay(5000)
+  OCR.Recognize(Mobile.Device()).BlockByText("Confirm", spRightMost).Touch();
   
+  //Home
+  aqUtils.Delay(5000)
+  OCR.Recognize(Mobile.Device()).BlockByText("Home").Touch();
   // Message
   Log.Message("SendMoney(Transaction created Successfully");
 }

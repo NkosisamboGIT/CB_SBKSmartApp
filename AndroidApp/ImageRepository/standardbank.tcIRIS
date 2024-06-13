@@ -310,7 +310,19 @@
 			<image imageFileName="Data\TextView_Own_amount.png" initialHash="729C1E02" selectionLeft="67" selectionTop="1353" selectionWidth="949" selectionHeight="105" initialLeft="67" initialTop="1353" initialWidth="949" initialHeight="105" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
 		</item>
 		<item caption="EditText_0Dot0010" moniker="{82C81C35-97BB-40F6-8047-082EBD86E995}" isComposite="True" simpleMode="True" currentImageIndex="0">
-			<image imageFileName="Data\EditText_0Dot0010.png" initialHash="00000000" selectionLeft="136" selectionTop="1360" selectionWidth="906" selectionHeight="141" initialLeft="136" initialTop="1360" initialWidth="906" initialHeight="141" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+			<image imageFileName="Data\EditText_0Dot0010.png" initialHash="A8137FEF" selectionLeft="136" selectionTop="1360" selectionWidth="906" selectionHeight="141" initialLeft="136" initialTop="1360" initialWidth="906" initialHeight="141" pixelTolerance="0" colorTolerance="0" deviceName="SM-G965F" />
+		</item>
+		<item caption="ViewGroup_UnnamedCtrl35" moniker="{7E2B71AA-8061-48AC-A4EC-34E50F8B674F}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\ViewGroup_UnnamedCtrl35.png" initialHash="769F8ABC" selectionLeft="0" selectionTop="1707" selectionWidth="1080" selectionHeight="261" initialLeft="0" initialTop="1707" initialWidth="1080" initialHeight="261" pixelTolerance="0" colorTolerance="0" deviceName="emulator-5554" />
+		</item>
+		<item caption="View_UnnamedCtrl17" moniker="{F4C47C85-E5DC-4A8D-96E2-FF5697D96DA3}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\View_UnnamedCtrl17.png" initialHash="14B3861F" selectionLeft="0" selectionTop="2057" selectionWidth="1080" selectionHeight="217" initialLeft="0" initialTop="2057" initialWidth="1080" initialHeight="217" pixelTolerance="0" colorTolerance="0" deviceName="emulator-5554" />
+		</item>
+		<item caption="ViewGroup_UnnamedCtrl36" moniker="{27FDC040-F4AD-4108-A8E5-95149E5F5209}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\ViewGroup_UnnamedCtrl36.png" initialHash="8DC58144" selectionLeft="0" selectionTop="1707" selectionWidth="1080" selectionHeight="261" initialLeft="0" initialTop="1707" initialWidth="1080" initialHeight="261" pixelTolerance="0" colorTolerance="0" deviceName="emulator-5554" />
+		</item>
+		<item caption="TextView_Forgot_PIN" moniker="{05A2315E-99EE-4360-9F6A-509BE224D765}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\TextView_Forgot_PIN.png" initialHash="00000000" selectionLeft="0" selectionTop="1911" selectionWidth="1080" selectionHeight="57" initialLeft="0" initialTop="1911" initialWidth="1080" initialHeight="57" pixelTolerance="0" colorTolerance="0" deviceName="emulator-5554" />
 		</item>
 	</data>
 </Root>

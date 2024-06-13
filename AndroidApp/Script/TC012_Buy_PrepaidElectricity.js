@@ -5,7 +5,7 @@
   ImageRepository.standardbank.ImageView_UnnamedCtrl16.Touch(68, 127);// select buy to Buy Electricity
   aqUtils.Delay(5000)
   OCR.Recognize(Mobile.Device()).BlockByText("Please enter meter number").Touch(); //Enter meter number
-  Mobile.Device().Keys("1045647836");
+  Mobile.Device().Keys("37198277305");
   aqUtils.Delay(5000)
   OCR.Recognize(Mobile.Device()).BlockByText("Done").Touch();
   aqUtils.Delay(5000)
@@ -13,7 +13,7 @@
   ImageRepository.standardbank.EditText_0Dot0010.Touch(134, 60);//MW
   Mobile.Device().Keys("400");
   OCR.Recognize(Mobile.Device()).BlockByText("Done").Touch();
-  aqUtils.Delay(8000)
+  Delay(10000)
   OCR.Recognize(Mobile.Device()).BlockByText("Next").Touch();
   aqUtils.Delay(5000)
   OCR.Recognize(Mobile.Device()).BlockByText("Confirm", spRightMost).Touch();

@@ -4,19 +4,28 @@
 	<testData />
 	<data />
 	<children>
-		<child key="{1CFC0CF4-A9A4-43F0-8184-49FF548327EC}">
-			<config nodeName="com_cloudbadger" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+		<child key="{17018359-ECAC-4B04-BEA9-2DFCAEF3F63D}">
+			<config nodeName="com_cloudbadger_standardbank" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\Nkosi\OneDrive - CloudBadger Pty Ltd\Documents\com.cloudbadger.standardbank.apk" upload="True" />
+					<param name="BitBar" parameters="" workFolder="" application="C:\Users\Nkosi\OneDrive - CloudBadger Pty Ltd\Documents\TestComplete 15 Projects\com.cloudbadger.standardbank.apk" upload="True" />
 				</runModeParams>
 			</config>
 			<testData />
 			<data />
 		</child>
-		<child key="{A31C372C-A0E8-4095-A3E4-B78E97986FE0}">
-			<config nodeName="com_cloudbadger_cloudbadger_2" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+		<child key="{D64D9AFA-B57E-4BAD-B0C1-60B31255DCF6}">
+			<config nodeName="com_cloudbadger_cloudbadger" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="BitBar">
+					<param name="BitBar" parameters="" workFolder="" application="C:\Users\Nkosi\OneDrive - CloudBadger Pty Ltd\Documents\TestComplete 15 Projects\com.cloudbadger.cloudbadger.apk" upload="True" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{0B54FC94-5599-48EB-A63A-BFC30009192D}">
+			<config nodeName="com_cloudbadger_standardbank_2" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Android">
-					<param name="Android" parameters="" workFolder="" apkFileName="C:\Users\Nkosi\Downloads\com.cloudbadger.cloudbadger-2.apk" deploy="True" keepDataAndCache="False" grantPermissions="False" signAPKWithCustom="False" keystorePath="" alias="" keystorePassword="" keyPassword="" />
+					<param name="Android" parameters="" workFolder="" apkFileName="C:\Users\Nkosi\OneDrive - CloudBadger Pty Ltd\Documents\TestComplete 15 Projects\com.cloudbadger.standardbank 2.apk" deploy="True" keepDataAndCache="False" grantPermissions="True" signAPKWithCustom="False" keystorePath="" alias="" keystorePassword="" keyPassword="" />
 				</runModeParams>
 			</config>
 			<testData />
