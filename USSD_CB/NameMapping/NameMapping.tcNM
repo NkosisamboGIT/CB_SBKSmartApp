@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{0A50D05A-33BC-4F4E-8EB8-2FBB406F10E5}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{4D4297BE-3F3E-49B1-BE5D-8EFE0C128DD6}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageUnayoMobileNumberVerificatio" Key="{8E1AD848-41AB-4EDA-923A-10FF6BFDFE6D}">
+								<Image FileName="50114804" Left="0" Top="151" Right="1920" Bottom="1063" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://mail.google.com/mail/u/0/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelExpandAll" Key="{F288DAC7-0F79-4508-93B7-946897803CEA}">
+										<Image FileName="50114804" Left="320" Top="291" Right="1810" Bottom="361" />
+										<TypeInfo Item0="{B82E6E7B-0AE4-40FB-A97B-B8D2BC3D5066}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;V8djrc&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelUnayo" Key="{563000AA-6CF5-4331-B515-3941A4717674}">
+										<Image FileName="50114804" Left="410" Top="361" Right="1810" Bottom="435" />
+										<TypeInfo Item0="{B82E6E7B-0AE4-40FB-A97B-B8D2BC3D5066}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//div[contains(@class, &apos;gE&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelUnayo2" Key="{D9FC52E1-ECA2-4E9B-9AC7-1D6C5B96CEC4}">
+										<Image FileName="137495202" Left="410" Top="462" Right="1810" Bottom="537" />
+										<TypeInfo Item0="{B82E6E7B-0AE4-40FB-A97B-B8D2BC3D5066}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;iv&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{D257FF9D-4120-4DF4-9561-9C6D8B3F7B9E}">
+										<Image FileName="893929479" Left="735" Top="547" Right="1485" Bottom="572" />
+										<TypeInfo Item0="{B82E6E7B-0AE4-40FB-A97B-B8D2BC3D5066}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td//tr/td//tr/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell2" Key="{7A567D19-C6DB-45EC-AB7D-6BC3C5113FC3}">
+										<Image FileName="-1509859917" Left="735" Top="701" Right="1485" Bottom="1077" />
+										<TypeInfo Item0="{B82E6E7B-0AE4-40FB-A97B-B8D2BC3D5066}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(@class, &apos;m_-2731776168444041744pc-sm-p-35-30&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[2]//tr/td/table[2]//tr/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell3" Key="{A73D1DCC-2B3C-4F86-B858-75DE03780AB8}">
+										<Image FileName="2050570850" Left="773" Top="870" Right="1448" Bottom="975" />
+										<TypeInfo Item0="{B82E6E7B-0AE4-40FB-A97B-B8D2BC3D5066}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tbody[2]/tr[3]/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUnayoMobileNumber" Key="{78EF0075-5925-489C-BF1D-41A5B9700AF8}">
+										<Image FileName="-883466219" Left="410" Top="316" Right="862" Bottom="351" />
+										<TypeInfo Item0="{B82E6E7B-0AE4-40FB-A97B-B8D2BC3D5066}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;Unayo - Mobile Number Verification&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2[contains(@class, &apos;hP&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell4" Key="{D723859B-D07A-4005-94B9-16E26ACCAEC4}">
+										<Image FileName="-1046235255" Left="735" Top="572" Right="1485" Bottom="701" />
+										<TypeInfo Item0="{B82E6E7B-0AE4-40FB-A97B-B8D2BC3D5066}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(@class, &apos;m_-2731776168444041744pc-sm-p-24-20-30&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[2]//tr/td//tr/td//tr/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{BFBEFABD-EEBD-4960-BCDE-91E8E6ED53A8}">
+								<Image FileName="50114804" Left="-9" Top="-9" Right="1929" Bottom="1029" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{0221E11C-6D3F-40AE-98AF-C9A44F7CDEE4}">
+								<Image FileName="1763175240" Left="0" Top="0" Right="583" Bottom="423" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{D93CD7E5-5E42-4CCC-AE37-A7E1C4CFC410}">
+										<Image FileName="1763175240" Left="1" Top="1" Right="584" Bottom="424" />
+										<TypeInfo Item0="{BB9E699E-7758-4F28-A20F-273CA9B65CD0}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageUssdUatUnayoComMsisdn2b27730" Key="{2FB655BB-1F7E-4EFE-9187-A25B9427117A}">
+								<TypeInfo Item0="{50F416A3-B94B-4C91-AA1D-FB42BF3DC4E8}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://ussd-uat.unayo.com/*" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{4D4297BE-3F3E-49B1-BE5D-8EFE0C128DD6}">
+			<Child Name="pageUnayoMobileNumberVerificatio" Owner="{8E1AD848-41AB-4EDA-923A-10FF6BFDFE6D}">
+				<Child Name="panelExpandAll" Owner="{F288DAC7-0F79-4508-93B7-946897803CEA}" />
+				<Child Name="panelUnayo" Owner="{563000AA-6CF5-4331-B515-3941A4717674}" />
+				<Child Name="panelUnayo2" Owner="{D9FC52E1-ECA2-4E9B-9AC7-1D6C5B96CEC4}" />
+				<Child Name="cell" Owner="{D257FF9D-4120-4DF4-9561-9C6D8B3F7B9E}" />
+				<Child Name="cell2" Owner="{7A567D19-C6DB-45EC-AB7D-6BC3C5113FC3}" />
+				<Child Name="cell3" Owner="{A73D1DCC-2B3C-4F86-B858-75DE03780AB8}" />
+				<Child Name="textnodeUnayoMobileNumber" Owner="{78EF0075-5925-489C-BF1D-41A5B9700AF8}" />
+				<Child Name="cell4" Owner="{D723859B-D07A-4005-94B9-16E26ACCAEC4}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{BFBEFABD-EEBD-4960-BCDE-91E8E6ED53A8}" />
+			<Child Name="wndChrome_WidgetWin_1" Owner="{0221E11C-6D3F-40AE-98AF-C9A44F7CDEE4}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{D93CD7E5-5E42-4CCC-AE37-A7E1C4CFC410}" />
+			</Child>
+			<Child Name="pageUssdUatUnayoComMsisdn2b27730" Owner="{2FB655BB-1F7E-4EFE-9187-A25B9427117A}" />
+		</Child>
+	</LogicalNodes>
+</Root>

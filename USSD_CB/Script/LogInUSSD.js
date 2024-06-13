@@ -8,7 +8,7 @@
     Browsers.Item(btChrome).Run(url);
     
     // Maximize the window
-    //Sys.Browser().BrowserWindow(0).Maximize();
+    Sys.Browser().BrowserWindow(0).Maximize();
     var page = Sys.Browser("*").Page("*");
     
     // Click login button
