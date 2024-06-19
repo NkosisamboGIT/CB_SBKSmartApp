@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="LogInUSSD" key="{6FCCFFDA-0725-4EE6-866E-2D6B52D470FB}" path="LogInUSSD.js" />
+		<child name="T1_LogInUSSD" key="{6FCCFFDA-0725-4EE6-866E-2D6B52D470FB}" path="T1_LogInUSSD.js" />
+		<child name="T2_Pay_SendMoney" key="{BD05A7CB-AD00-41E4-AEDD-BFC180F1A9E7}" path="T2_Pay_SendMoney.js" />
+		<child name="T3_Cash_In" key="{916E7451-8A64-4123-96F5-EE0B5EAE21AE}" path="T3_Cash_In.js" />
+		<child name="T4_Cash_Out" key="{79116751-C80E-4B72-B36A-BF8E61B17F98}" path="T4_Cash_Out.js" />
 	</children>
 </Root>

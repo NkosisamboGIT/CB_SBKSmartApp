@@ -227,7 +227,195 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="navUssdSimulator" Key="{32FCD313-2D4F-4BCA-A83E-0DA91C793DB9}">
+										<Image FileName="-1448996768" Left="-1" Top="120" Right="1567" Bottom="195" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;USSD Simulator&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkUssdSimulator" Key="{D1D2F9A4-EA03-406D-BC14-ADBE19A8E221}">
+										<Image FileName="-1448996768" Left="228" Top="128" Right="420" Bottom="186" />
+										<TypeInfo Item0="{B82E6E7B-0AE4-40FB-A97B-B8D2BC3D5066}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;USSD Simulator&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;navbar-brand&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHome" Key="{F478960E-993A-416D-AB1B-12C3C5B33B60}">
+										<Image FileName="1810162630" Left="436" Top="137" Right="1338" Bottom="177" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;navbar-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHome2" Key="{2F25EE14-2A4E-4075-812F-019E5EB7D3EB}">
+										<Image FileName="1810162630" Left="436" Top="137" Right="495" Bottom="177" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;nav-item&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkHome" Key="{CDC0EEC4-DB1C-4F0D-A8D0-C0684070F323}">
+										<Image FileName="1810162630" Left="436" Top="137" Right="495" Bottom="177" />
+										<TypeInfo Item0="{B82E6E7B-0AE4-40FB-A97B-B8D2BC3D5066}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Home&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ms_teams" Key="{288C7F23-E78C-4CA7-B9C3-4E06066A136D}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ms-teams" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndTeamsWebView" Key="{E7BA4C13-BE49-4E37-A04D-4AC6078F101B}">
+								<Image FileName="-1078816697" Left="-9" Top="-9" Right="2567" Bottom="1399" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TeamsWebView" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Chat | CB Ops team call | Microsoft Teams" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_WidgetWin_0" Key="{8E40F780-E371-4CDB-8EB7-684DCE427054}">
+										<Image FileName="-1078816697" Left="-1" Top="-1" Right="2559" Bottom="1391" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_WidgetWin_0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Chrome_WidgetWin_0" Key="{9C1640C1-0F5D-4B70-9A12-FBF1D74DB5D4}">
+												<Image FileName="-1078816697" Left="2424" Top="7" Right="2559" Bottom="39" />
+												<TypeInfo Item0="{BB9E699E-7758-4F28-A20F-273CA9B65CD0}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Chrome_WidgetWin_0" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="4" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndTeamsWebView2" Key="{00D58B66-2EBE-42DB-B07F-08E90ABF3504}">
+								<TypeInfo Item0="{2ABFE27E-3913-4AFC-930D-A2EDC76B2E8C}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TeamsWebView" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="CB Ops team call | Microsoft Teams" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_WidgetWin_0" Key="{7A85F395-1CFC-4EE0-BB21-F9F33B8A1F02}">
+										<TypeInfo Item0="{BB9E699E-7758-4F28-A20F-273CA9B65CD0}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_WidgetWin_0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Chrome_WidgetWin_1" Key="{18C8FA0A-DDB9-42BB-AC9A-4CF963D2ADB3}">
+												<Image FileName="-1353570269" Left="0" Top="0" Right="1920" Bottom="1020" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Chrome_WidgetWin_1" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="CB Ops team call | Microsoft Teams" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Chrome_RenderWidgetHostHWND" Key="{5407511A-CEE3-4ED8-859C-9150AE97D4E1}">
+														<Image FileName="-1353570269" Left="0" Top="0" Right="1920" Bottom="1020" />
+														<TypeInfo Item0="{BB9E699E-7758-4F28-A20F-273CA9B65CD0}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Chrome_RenderWidgetHostHWND" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Chrome Legacy Window" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="firefox" Key="{BCD7CB0C-8895-4FD2-AB86-B8EA4E465485}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="firefox" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndMozillaWindowClass" Key="{F696EAEE-5586-40B3-B68F-D09CF9F1B620}">
+								<Image FileName="271864762" Left="-9" Top="-9" Right="2567" Bottom="1399" />
+								<TypeInfo Item0="{2ABFE27E-3913-4AFC-930D-A2EDC76B2E8C}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="MozillaWindowClass" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Mozilla Firefox" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -258,7 +446,32 @@
 				<Child Name="formInstanceId" Owner="{C742020B-EA53-4BC1-A432-EA0841707F0D}">
 					<Child Name="selectInstanceId" Owner="{4897111F-8BD1-403F-94A0-44C97D7EC16A}" />
 				</Child>
+				<Child Name="navUssdSimulator" Owner="{32FCD313-2D4F-4BCA-A83E-0DA91C793DB9}">
+					<Child Name="linkUssdSimulator" Owner="{D1D2F9A4-EA03-406D-BC14-ADBE19A8E221}" />
+					<Child Name="textnodeHome" Owner="{F478960E-993A-416D-AB1B-12C3C5B33B60}">
+						<Child Name="textnodeHome2" Owner="{2F25EE14-2A4E-4075-812F-019E5EB7D3EB}">
+							<Child Name="linkHome" Owner="{CDC0EEC4-DB1C-4F0D-A8D0-C0684070F323}" />
+						</Child>
+					</Child>
+				</Child>
 			</Child>
+		</Child>
+		<Child Name="ms_teams" Owner="{288C7F23-E78C-4CA7-B9C3-4E06066A136D}">
+			<Child Name="wndTeamsWebView" Owner="{E7BA4C13-BE49-4E37-A04D-4AC6078F101B}">
+				<Child Name="Chrome_WidgetWin_0" Owner="{8E40F780-E371-4CDB-8EB7-684DCE427054}">
+					<Child Name="Chrome_WidgetWin_0" Owner="{9C1640C1-0F5D-4B70-9A12-FBF1D74DB5D4}" />
+				</Child>
+			</Child>
+			<Child Name="wndTeamsWebView2" Owner="{00D58B66-2EBE-42DB-B07F-08E90ABF3504}">
+				<Child Name="Chrome_WidgetWin_0" Owner="{7A85F395-1CFC-4EE0-BB21-F9F33B8A1F02}">
+					<Child Name="Chrome_WidgetWin_1" Owner="{18C8FA0A-DDB9-42BB-AC9A-4CF963D2ADB3}">
+						<Child Name="Chrome_RenderWidgetHostHWND" Owner="{5407511A-CEE3-4ED8-859C-9150AE97D4E1}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="firefox" Owner="{BCD7CB0C-8895-4FD2-AB86-B8EA4E465485}">
+			<Child Name="wndMozillaWindowClass" Owner="{F696EAEE-5586-40B3-B68F-D09CF9F1B620}" />
 		</Child>
 	</LogicalNodes>
 </Root>
