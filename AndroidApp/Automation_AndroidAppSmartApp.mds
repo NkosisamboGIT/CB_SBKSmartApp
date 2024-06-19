@@ -198,7 +198,7 @@
 		</setting>
 		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
 		<setting name="KeyPressingDelay" type="2" value="0" />
-		<setting name="MobileSupportType" type="6" rowIndex="1" colIndex="0">
+		<setting name="MobileSupportType" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>

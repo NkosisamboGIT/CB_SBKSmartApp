@@ -1456,6 +1456,74 @@
 											</Child>
 										</Children>
 									</Child>
+									<Child Name="viewGroup" Key="{7583084B-8A2C-49E4-A8DF-264C8CD8F04D}">
+										<Image FileName="1269874572" Left="0" Top="165" Right="1440" Bottom="2774" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[*[@text=&quot;Hey NkosiLST1&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;LIN001&quot;]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="viewGroup2" Key="{9E612A53-23A0-4FF1-824B-4305BB5BC221}">
+										<Image FileName="-1222966979" Left="0" Top="165" Right="1440" Bottom="2934" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;LIN001&quot;]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="processGoogleAndroidAppsNexuslauncher" Key="{5655B678-7334-45CE-8242-47C715E94727}">
+								<Properties>
+									<Property Name="ProcessName">
+										<Value Value="com.google.android.apps.nexuslauncher" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="scrollViewWorkspace" Key="{19971CA4-E25C-4745-A7CA-D897C61C9B71}">
+										<Image FileName="-719756019" Left="0" Top="0" Right="1440" Bottom="2934" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;com.google.android.apps.nexuslauncher:id/workspace&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.ScrollView" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;com.google.android.apps.nexuslauncher:id/drag_layer&quot;]/android.widget.ScrollView" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.FrameLayout/android.widget.ScrollView" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textView" Key="{EAE7BE0A-B274-4EB2-ADA9-D6E3A1251859}">
+										<Image FileName="-719756019" Left="413" Top="1440" Right="693" Bottom="1803" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;Unayo&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@text=&quot;Unayo&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;com.google.android.apps.nexuslauncher:id/workspace&quot;]/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -1615,6 +1683,13 @@
 							</Child>
 						</Child>
 					</Child>
+				</Child>
+				<Child Name="viewGroup" Owner="{7583084B-8A2C-49E4-A8DF-264C8CD8F04D}" />
+				<Child Name="viewGroup2" Owner="{9E612A53-23A0-4FF1-824B-4305BB5BC221}" />
+			</Child>
+			<Child Name="processGoogleAndroidAppsNexuslauncher" Owner="{5655B678-7334-45CE-8242-47C715E94727}">
+				<Child Name="scrollViewWorkspace" Owner="{19971CA4-E25C-4745-A7CA-D897C61C9B71}">
+					<Child Name="textView" Owner="{EAE7BE0A-B274-4EB2-ADA9-D6E3A1251859}" />
 				</Child>
 			</Child>
 		</Child>

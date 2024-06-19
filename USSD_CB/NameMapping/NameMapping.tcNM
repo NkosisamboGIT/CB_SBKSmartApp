@@ -159,6 +159,75 @@
 										<Value Value="https://ussd-uat.unayo.com/*" />
 									</Property>
 								</Properties>
+								<Children>
+									<Child Name="textnodeSession" Key="{54343F26-4DAE-4BC8-B3E5-3F84E161F89E}">
+										<Image FileName="-323213736" Left="935" Top="269" Right="1623" Bottom="293" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h5[text()=&apos;Session&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div[2]/div/div/h5[contains(@class, &apos;card-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div[2]/div/div/h5" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCreateANewSession" Key="{BB948C5E-F5DC-4AD5-BF2C-7F3FDC13E564}">
+										<Image FileName="-323213736" Left="1448" Top="269" Right="1623" Bottom="307" />
+										<TypeInfo Item0="{F28F6E98-4FE8-4D5C-8022-AB56FA5A32D3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Create a new Session&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formInstanceId" Key="{C742020B-EA53-4BC1-A432-EA0841707F0D}">
+										<Image FileName="-1412819643" Left="1046" Top="234" Right="1512" Bottom="772" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Instance ID&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;SaveConfig&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div[@id=&apos;newSessionDetailsModal&apos;]/div/div/div/form[contains(@class, &apos;form-horizontal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;newSessionDetailsModal&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div[@id=&apos;newSessionDetailsModal&apos;]/div/div/div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectInstanceId" Key="{4897111F-8BD1-403F-94A0-44C97D7EC16A}">
+										<Image FileName="-1412819643" Left="1046" Top="266" Right="1512" Bottom="304" />
+										<TypeInfo Item0="{475E9783-7E02-4BF6-A172-897AA78D1FA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[.=&apos;Instance ID&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#instanceId" />
+											</Selector>
+											<Selector>
+												<Value Value="//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
 							</Child>
 						</Children>
 					</Child>
@@ -182,7 +251,14 @@
 			<Child Name="wndChrome_WidgetWin_1" Owner="{0221E11C-6D3F-40AE-98AF-C9A44F7CDEE4}">
 				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{D93CD7E5-5E42-4CCC-AE37-A7E1C4CFC410}" />
 			</Child>
-			<Child Name="pageUssdUatUnayoComMsisdn2b27730" Owner="{2FB655BB-1F7E-4EFE-9187-A25B9427117A}" />
+			<Child Name="pageUssdUatUnayoComMsisdn2b27730" Owner="{2FB655BB-1F7E-4EFE-9187-A25B9427117A}">
+				<Child Name="textnodeSession" Owner="{54343F26-4DAE-4BC8-B3E5-3F84E161F89E}">
+					<Child Name="buttonCreateANewSession" Owner="{BB948C5E-F5DC-4AD5-BF2C-7F3FDC13E564}" />
+				</Child>
+				<Child Name="formInstanceId" Owner="{C742020B-EA53-4BC1-A432-EA0841707F0D}">
+					<Child Name="selectInstanceId" Owner="{4897111F-8BD1-403F-94A0-44C97D7EC16A}" />
+				</Child>
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>
