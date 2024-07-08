@@ -329,6 +329,37 @@
 									</Property>
 								</Properties>
 							</Child>
+							<Child Name="page174NiyathembanaNaEpMakingCou" Key="{D3C2210A-A5C3-45E8-9C5E-30564C78007B}">
+								<Image FileName="-1361229657" Left="0" Top="108" Right="1919" Bottom="977" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.youtube.com/watch*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="videoWwwYoutubeCom" Key="{48D6CF05-997A-4FCC-9C4C-09AE075F25F2}">
+										<Image FileName="-1361229657" Left="70" Top="218" Right="1243" Bottom="878" />
+										<TypeInfo Item0="{074CAE6D-CCBE-43FF-B5F8-0328EAB71F42}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//video[contains(@src, &apos;www.youtube.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//video[contains(@class, &apos;video-stream&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;movie_player&apos;]//video" />
+											</Selector>
+											<Selector>
+												<Value Value="//video" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="studio64" Key="{21C8B399-9A0B-4B75-90AA-CD5E847C43A7}">
@@ -1481,6 +1512,122 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="scrollView" Key="{E816BCE6-4FA3-4477-8812-B33294100D6B}">
+										<Image FileName="-128707741" Left="0" Top="165" Right="1440" Bottom="2774" />
+										<Selectors>
+											<Selector>
+												<Value Value="//android.widget.ScrollView" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.ViewGroup/android.widget.ScrollView" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageView" Key="{E1D51B41-82BA-46F5-B84C-1C5266E747BD}">
+										<Image FileName="-128707741" Left="1213" Top="1923" Right="1318" Bottom="2028" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;RadioButton PREPROD Lesotho&quot;]/android.widget.ImageView[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.ViewGroup[4]/android.view.ViewGroup[2]/android.widget.ImageView[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="scrollView2" Key="{2421DED0-BA96-4686-9C19-07FA42087989}">
+										<Image FileName="1551632479" Left="0" Top="165" Right="1440" Bottom="2774" />
+										<Selectors>
+											<Selector>
+												<Value Value="//android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textView" Key="{D05AC27C-D1EA-401E-9E35-69F787B74674}">
+										<Image FileName="1551632479" Left="249" Top="1776" Right="1192" Bottom="1881" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@text=&quot;PREPROD Kenya&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;RadioButton PREPROD Kenya&quot;]/android.widget.TextView" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.ViewGroup[3]/android.view.ViewGroup[2]/android.widget.TextView" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="viewNextButton" Key="{71C284CE-2107-430F-9C83-A74BA551543E}">
+										<Image FileName="-1321691939" Left="0" Top="2806" Right="1440" Bottom="2934" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;NextButton&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;com.cloudbadger.standardbank:id/NextButton&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;NextButton_Container&quot;]/android.view.View" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.ViewGroup/android.view.View" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="editText" Key="{154EECE4-7D69-4D16-BD5D-5D5344D772A9}">
+										<Image FileName="-1316918064" Left="176" Top="837" Right="1266" Bottom="986" />
+										<Selectors>
+											<Selector>
+												<Value Value="//android.widget.EditText" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.ViewGroup[2]/android.widget.EditText" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="viewGroup3" Key="{630D8111-4314-48CC-A93B-C57D65C3F13C}">
+										<Image FileName="-1367003404" Left="0" Top="480" Right="1440" Bottom="2934" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[android.widget.ScrollView]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.ViewGroup[2]/android.view.ViewGroup" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="viewGroup4" Key="{3D17EF0C-FAAE-4234-A05B-5C6A74297330}">
+										<Image FileName="-1312471270" Left="0" Top="480" Right="1440" Bottom="2934" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[android.widget.ScrollView]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="editText2" Key="{9F70E04A-5CC3-434C-9106-0F3DAEBE8A86}">
+										<Image FileName="-2060820431" Left="207" Top="1434" Right="347" Bottom="1583" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;IdNumber&quot;]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.EditText" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.EditText" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="switch" Key="{9FADE08D-4875-45B1-8D62-7F3F2487FBB5}">
+										<Image FileName="-516248213" Left="1222" Top="1823" Right="1388" Bottom="1918" />
+										<Selectors>
+											<Selector>
+												<Value Value="//android.widget.Switch" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.ViewGroup/android.widget.Switch" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="processGoogleAndroidAppsNexuslauncher" Key="{5655B678-7334-45CE-8242-47C715E94727}">
@@ -1573,6 +1720,9 @@
 			</Child>
 			<Child Name="BrowserWindow2" Owner="{AE988FE0-D83D-42BA-8AF7-85E7DB6D12FE}" />
 			<Child Name="wndChrome_WidgetWin_1" Owner="{367F6BF8-4986-45F4-8632-5894B68CA70B}" />
+			<Child Name="page174NiyathembanaNaEpMakingCou" Owner="{D3C2210A-A5C3-45E8-9C5E-30564C78007B}">
+				<Child Name="videoWwwYoutubeCom" Owner="{48D6CF05-997A-4FCC-9C4C-09AE075F25F2}" />
+			</Child>
 		</Child>
 		<Child Name="Device" Owner="{C5DD5039-E899-48BA-AB8D-319751A5D68C}">
 			<Child Name="Process_cloudbadger_standardbank" Owner="{0936DDBB-CC03-447A-A18A-02F68522F64C}">
@@ -1686,6 +1836,18 @@
 				</Child>
 				<Child Name="viewGroup" Owner="{7583084B-8A2C-49E4-A8DF-264C8CD8F04D}" />
 				<Child Name="viewGroup2" Owner="{9E612A53-23A0-4FF1-824B-4305BB5BC221}" />
+				<Child Name="scrollView" Owner="{E816BCE6-4FA3-4477-8812-B33294100D6B}">
+					<Child Name="imageView" Owner="{E1D51B41-82BA-46F5-B84C-1C5266E747BD}" />
+					<Child Name="editText" Owner="{154EECE4-7D69-4D16-BD5D-5D5344D772A9}" />
+					<Child Name="editText2" Owner="{9F70E04A-5CC3-434C-9106-0F3DAEBE8A86}" />
+				</Child>
+				<Child Name="scrollView2" Owner="{2421DED0-BA96-4686-9C19-07FA42087989}">
+					<Child Name="textView" Owner="{D05AC27C-D1EA-401E-9E35-69F787B74674}" />
+				</Child>
+				<Child Name="viewNextButton" Owner="{71C284CE-2107-430F-9C83-A74BA551543E}" />
+				<Child Name="viewGroup3" Owner="{630D8111-4314-48CC-A93B-C57D65C3F13C}" />
+				<Child Name="viewGroup4" Owner="{3D17EF0C-FAAE-4234-A05B-5C6A74297330}" />
+				<Child Name="switch" Owner="{9FADE08D-4875-45B1-8D62-7F3F2487FBB5}" />
 			</Child>
 			<Child Name="processGoogleAndroidAppsNexuslauncher" Owner="{5655B678-7334-45CE-8242-47C715E94727}">
 				<Child Name="scrollViewWorkspace" Owner="{19971CA4-E25C-4745-A7CA-D897C61C9B71}">
