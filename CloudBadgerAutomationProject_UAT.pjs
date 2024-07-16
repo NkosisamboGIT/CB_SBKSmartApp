@@ -3,7 +3,7 @@
 	<children>
 		<child name="ReadyAPI" key="{803A016D-F72C-4187-9121-7D84F7B797A7}" path="AppProject\ReadyAPI.mds" />
 		<child name="Automation_AndroidAppSmartApp" key="{A836E76B-3CB9-45B1-A6F5-D3E15F7606D5}" path="AndroidApp\Automation_AndroidAppSmartApp.mds" />
-		<child name="Automation_USSD" key="{B39511DD-AC81-49F5-BF14-2D387EDD3586}" path="USSD_CB\Automation_USSD.mds" />
+		<child name="01Automation_USSD" key="{B39511DD-AC81-49F5-BF14-2D387EDD3586}" path="USSD_CB\01Automation_USSD.mds" />
 		<child name="Automation_InternetBanking" key="{BB625588-4038-4090-AC71-B9E01A09B48F}" path="..\Automation\Automation\Automation_InternetBanking.mds" />
 	</children>
 	<testItems key="{381C7504-5904-4DBD-A616-165ED4836179}">

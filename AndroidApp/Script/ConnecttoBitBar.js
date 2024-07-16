@@ -1,22 +1,24 @@
 ﻿function ConnecttoBitBar()
 {
-
   var capabilities = {
-    "appActivity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity", 
-    "appPackage": "com.google.android.permissioncontroller", 
-    "autoGrantPermissions": "true", 
-    "platformName": "ANDROID", 
-    "bitbar_target": "android", 
+    "autoGrantPermissions": true,
+    "appPackage": "com.cloudbadger.standardbank",
+    "appActivity": "crc64bdac1fab992d0e8d.SplashScreen",
+    "automationName": "UiAutomator2", 
+    "bitbar_app": "232824667", 
+    "bitbar_device": "Samsung Galaxy S22 SM-S901U1 -US", 
     "bitbar_findDevice": "true", 
     "bitbar_multiSessionWait": "60", 
-    "bitbar_device": "Google Pixel 6 Pro 5G -US", 
-    "deviceName": "Google Pixel 6 Pro 5G -US", 
-    "automationName": "UiAutomator2", 
-    "bitbar_app": "232824667"
+    "bitbar_target": "android", 
+    "deviceName": "Samsung Galaxy S22 SM-S901U1 -US", 
+    "platformName": "ANDROID"
   };
   var server = "https://eu-mobile-hub.bitbar.com/wd/hub";
   Mobile.ConnectDevice(server, capabilities, 600);
-  Aliases.Device.processGoogleAndroidAppsNexuslauncher.scrollViewWorkspace.textView.Touch();
+  
+  // Actions
+  let device = Aliases.Device;
+  Delay(20000)
+  //Aliases.Device.processSecAndroidAppLauncher.textViewAppsIcon.Touch();
+
 }
-
-

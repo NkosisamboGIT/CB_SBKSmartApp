@@ -1673,6 +1673,34 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="processSecAndroidAppLauncher" Key="{8FAE5662-24D3-417F-8CB3-41B0B29904EA}">
+								<TypeInfo Item0="{B4FFC0CA-5BDB-47B7-ABD7-87A954AE7C38}" />
+								<Properties>
+									<Property Name="ProcessName">
+										<Value Value="com.sec.android.app.launcher" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textViewAppsIcon" Key="{6023D393-4672-45C4-A742-EC3C943D785C}">
+										<Image FileName="-281162054" Left="39" Top="653" Right="285" Bottom="1008" />
+										<TypeInfo Item0="{8BF41399-BED9-4D1C-B4B9-F4A6D8F07B2F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//*[@content-desc=&quot;Unayo&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//*[@text=&quot;Unayo&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=(//*[@resource-id=&quot;com.sec.android.app.launcher:id/apps_icon&quot;])[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//android.view.ViewGroup/android.widget.TextView[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -1853,6 +1881,9 @@
 				<Child Name="scrollViewWorkspace" Owner="{19971CA4-E25C-4745-A7CA-D897C61C9B71}">
 					<Child Name="textView" Owner="{EAE7BE0A-B274-4EB2-ADA9-D6E3A1251859}" />
 				</Child>
+			</Child>
+			<Child Name="processSecAndroidAppLauncher" Owner="{8FAE5662-24D3-417F-8CB3-41B0B29904EA}">
+				<Child Name="textViewAppsIcon" Owner="{6023D393-4672-45C4-A742-EC3C943D785C}" />
 			</Child>
 		</Child>
 		<Child Name="studio64" Owner="{21C8B399-9A0B-4B75-90AA-CD5E847C43A7}">

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{3AE7D26E-11DE-411F-A26E-9C422F421771}" version="15.0">
 	<data>
-		<setting name="UseProjectFileName" type="1" value="True" />
+		<setting name="UseProjectFileName" type="1" value="False" />
 		<setting name="ProjectFileName" type="5" value="" />
-		<setting name="UseProjectDirectory" type="1" value="False" />
+		<setting name="UseProjectDirectory" type="1" value="True" />
 		<setting name="ProjectDirectory" type="5" value="" />
 		<setting name="TestSuite" type="6" rowIndex="0" colIndex="0">
 			<columns>

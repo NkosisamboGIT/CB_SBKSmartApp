@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
-	<children />
+	<children>
+		<child name="LogInUSSD" key="{F2CE26F5-7291-4236-B659-2696496BC1A5}" path="LogInUSSD.tcKDTest" />
+	</children>
 </Root>

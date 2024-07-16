@@ -419,6 +419,30 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="explorer" Key="{95A0D84F-C5C2-451B-9213-CFF8B2AEBC91}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndTaskListThumbnailWnd" Key="{FB4AB9CF-1E67-4CA1-BB0F-A1FA27E570E8}">
+								<Image FileName="1910204072" Left="0" Top="0" Right="216" Bottom="203" />
+								<TypeInfo Item0="{631EC9F0-9DDB-4561-8087-AAA6214F9358}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TaskListThumbnailWnd" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="2" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -472,6 +496,9 @@
 		</Child>
 		<Child Name="firefox" Owner="{BCD7CB0C-8895-4FD2-AB86-B8EA4E465485}">
 			<Child Name="wndMozillaWindowClass" Owner="{F696EAEE-5586-40B3-B68F-D09CF9F1B620}" />
+		</Child>
+		<Child Name="explorer" Owner="{95A0D84F-C5C2-451B-9213-CFF8B2AEBC91}">
+			<Child Name="wndTaskListThumbnailWnd" Owner="{FB4AB9CF-1E67-4CA1-BB0F-A1FA27E570E8}" />
 		</Child>
 	</LogicalNodes>
 </Root>

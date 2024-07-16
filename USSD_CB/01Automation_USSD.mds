@@ -7,11 +7,23 @@
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{500124E5-EC98-4B71-BF41-1FF969A59DDC}" version="14">
-		<children />
+		<children>
+			<testItem name="LogInMW and Send Money" key="{176AC1C9-88EA-4B3A-8D44-247F79C95969}" group="False" parallel="False" enabled="True" testMoniker="{F3DCD54C-9CF7-443F-8F9F-5367D15A9CB2}T1_LogInUSSD_MW" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children>
+					<testItem name="LogInLS and Send Money" key="{A5D91CA0-15A3-4E68-AD1E-542E17475A3D}" group="False" parallel="False" enabled="True" testMoniker="{6FCCFFDA-0725-4EE6-866E-2D6B52D470FB}T01_LogInUSSD_Lesotho" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{5E41FDE7-C083-4BFE-BFFE-15314C68A5BE}" />
 	<settings key="{8E61E259-FF10-4D11-9A56-60960C1EFFFD}">
-		<settingsVersion value="15.64" />
+		<settingsVersion value="15.65" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

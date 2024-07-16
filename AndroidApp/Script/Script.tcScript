@@ -21,6 +21,7 @@
 			<child name="TC011_Buy_VAS_Airtime" key="{015FF951-8C62-4884-8E70-F471A7585CEE}" path="TC011_Buy_VAS_Airtime.js" />
 			<child name="ConnecttoBitBar" key="{6FE724A8-0EB0-4ABC-AA16-76E10EA427E1}" path="ConnecttoBitBar.js" />
 			<child name="LogInEmulator" key="{B531F37F-2765-46FF-BB21-161E4122490D}" path="LogInEmulator.js" />
+			<child name="Test" key="{5127F279-2362-458A-9554-7F96F8B2E55C}" path="Test.js" />
 		</folder>
 		<folder name="3.TestScripts">
 			<child name="SC000_LogInSBK" key="{5BC6D970-3D9A-41C7-93A5-A6C7BA2976B9}" path="SC000_LogInSBK.js" />

@@ -31,5 +31,14 @@
 			<testData />
 			<data />
 		</child>
+		<child key="{FA950F29-4BBB-469A-872E-C23CED634CEF}">
+			<config nodeName="com_cloudbadger_standardbank__1_" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="BitBar">
+					<param name="BitBar" parameters="" workFolder="" application="C:\Users\Nkosi\OneDrive - CloudBadger Pty Ltd\Documents\TestComplete 15 Projects\com.cloudbadger.standardbank (1).apk" upload="True" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
 	</children>
 </Root>
