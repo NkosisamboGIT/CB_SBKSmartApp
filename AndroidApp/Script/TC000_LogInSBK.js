@@ -3,6 +3,10 @@
  // DDT.ExcelDriver("C:\\Users\\Nkosi\\OneDrive - CloudBadger Pty Ltd\\Documents\\TestComplete 15 Projects\\SAppProject\\CBSmartApp.xlsx","LoginDetails");
  // DDT.CurrentDriver.DriveMethod("TC1_LogInSBK.TC1_LogInSBK");
 
+// this is the change
+
+
+
 function TC000_LogInSBK()
 {
   var capabilities = {
