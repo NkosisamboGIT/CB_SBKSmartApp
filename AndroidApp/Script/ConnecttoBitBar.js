@@ -4,14 +4,14 @@
     "autoGrantPermissions": true,
     "appPackage": "com.cloudbadger.standardbank",
     "appActivity": "crc64bdac1fab992d0e8d.SplashScreen",
+    "platformName": "ANDROID", 
+    "bitbar:target": "android", 
+    "bitbar:findDevice": "true", 
+    "bitbar:multiSessionWait": "60", 
+    "bitbar:device": "Google Pixel 3a Android 12", 
+    "deviceName": "Google Pixel 3a Android 12", 
     "automationName": "UiAutomator2", 
-    "bitbar_app": "232824667", 
-    "bitbar_device": "Samsung Galaxy S22 SM-S901U1 -US", 
-    "bitbar_findDevice": "true", 
-    "bitbar_multiSessionWait": "60", 
-    "bitbar_target": "android", 
-    "deviceName": "Samsung Galaxy S22 SM-S901U1 -US", 
-    "platformName": "ANDROID"
+    "bitbar:app": "232824667"
   };
   var server = "https://eu-mobile-hub.bitbar.com/wd/hub";
   Mobile.ConnectDevice(server, capabilities, 600);
@@ -22,5 +22,3 @@
   //Aliases.Device.processSecAndroidAppLauncher.textViewAppsIcon.Touch();
 
 }
-
-// testing Github

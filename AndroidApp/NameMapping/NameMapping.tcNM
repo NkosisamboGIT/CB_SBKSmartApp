@@ -1628,6 +1628,76 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="imageView2" Key="{0CFD0BBE-78A1-4378-AA69-2407128723AC}">
+										<Image FileName="-1351978822" Left="885" Top="1619" Right="975" Bottom="1709" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;RadioButton Lesotho&quot;]/android.widget.ImageView[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.ViewGroup[4]/android.view.ViewGroup[2]/android.widget.ImageView[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="viewLoginButton" Key="{9E577A7B-E129-4D1C-B38C-16863E45D0FC}">
+										<Image FileName="-2062244637" Left="0" Top="1988" Right="540" Bottom="2115" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;com.cloudbadger.standardbank:id/LoginButton&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;LoginButton_Container&quot;]/android.view.View" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;LinkingPageIcr&quot;]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.View" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.View" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textView2" Key="{9B589AEC-4195-4D40-9201-30CFEADC2773}">
+										<Image FileName="-664106530" Left="213" Top="1367" Right="867" Bottom="1457" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@text=&quot;Eswatini&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;RadioButton Eswatini&quot;]/android.widget.TextView" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.widget.TextView" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="viewGroup5" Key="{2042402E-41F6-4948-9211-AFCAC64038D8}">
+										<Image FileName="1059338522" Left="0" Top="381" Right="1080" Bottom="2015" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[*[@text=&quot;Add a trusted device&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="viewNextButton2" Key="{7B07CF19-BEBD-4146-9B04-0D043682E83A}">
+										<Image FileName="281788067" Left="0" Top="2014" Right="1080" Bottom="2115" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;com.cloudbadger.standardbank:id/NextButton&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.View" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;NextButton_Container&quot;]/android.view.View" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.ViewGroup/android.view.View" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="processGoogleAndroidAppsNexuslauncher" Key="{5655B678-7334-45CE-8242-47C715E94727}">
@@ -1868,14 +1938,19 @@
 					<Child Name="imageView" Owner="{E1D51B41-82BA-46F5-B84C-1C5266E747BD}" />
 					<Child Name="editText" Owner="{154EECE4-7D69-4D16-BD5D-5D5344D772A9}" />
 					<Child Name="editText2" Owner="{9F70E04A-5CC3-434C-9106-0F3DAEBE8A86}" />
+					<Child Name="imageView2" Owner="{0CFD0BBE-78A1-4378-AA69-2407128723AC}" />
+					<Child Name="viewGroup5" Owner="{2042402E-41F6-4948-9211-AFCAC64038D8}" />
 				</Child>
 				<Child Name="scrollView2" Owner="{2421DED0-BA96-4686-9C19-07FA42087989}">
 					<Child Name="textView" Owner="{D05AC27C-D1EA-401E-9E35-69F787B74674}" />
+					<Child Name="textView2" Owner="{9B589AEC-4195-4D40-9201-30CFEADC2773}" />
 				</Child>
 				<Child Name="viewNextButton" Owner="{71C284CE-2107-430F-9C83-A74BA551543E}" />
 				<Child Name="viewGroup3" Owner="{630D8111-4314-48CC-A93B-C57D65C3F13C}" />
 				<Child Name="viewGroup4" Owner="{3D17EF0C-FAAE-4234-A05B-5C6A74297330}" />
 				<Child Name="switch" Owner="{9FADE08D-4875-45B1-8D62-7F3F2487FBB5}" />
+				<Child Name="viewLoginButton" Owner="{9E577A7B-E129-4D1C-B38C-16863E45D0FC}" />
+				<Child Name="viewNextButton2" Owner="{7B07CF19-BEBD-4146-9B04-0D043682E83A}" />
 			</Child>
 			<Child Name="processGoogleAndroidAppsNexuslauncher" Owner="{5655B678-7334-45CE-8242-47C715E94727}">
 				<Child Name="scrollViewWorkspace" Owner="{19971CA4-E25C-4745-A7CA-D897C61C9B71}">

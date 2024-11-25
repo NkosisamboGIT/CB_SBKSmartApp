@@ -22,6 +22,29 @@ function TC000_LogInSBK()
   Mobile.ConnectDevice(server, capabilities, 600);
   
   Delay(20500)
+  let processCloudbadgerStandardbank = Aliases.Device.Process_cloudbadger_standardbank;
+  let scrollView = processCloudbadgerStandardbank.scrollView;
+  scrollView.imageView2.Touch();
+  processCloudbadgerStandardbank.viewLoginButton.Touch();
+  processCloudbadgerStandardbank.scrollView2.textView2.Touch();
+  scrollView.editText.Touch();
+  let viewGroup = scrollView.viewGroup5;
+  viewGroup.Touch();
+  processCloudbadgerStandardbank.viewGroup3.Touch();
+  viewGroup.Touch();
+  viewGroup.Touch();
+  viewGroup.Touch();
+  viewGroup.Touch();
+  viewGroup.Touch();
+  viewGroup.Touch();
+  viewGroup.Touch();
+  viewGroup.Touch();
+  viewGroup.Touch();
+  viewGroup.Touch();
+  viewGroup.Touch();
+  viewGroup.Touch();
+  processCloudbadgerStandardbank.viewNextButton2.Touch();
+  
   Aliases.Device.processGoogleAndroidAppsNexuslauncher.scrollViewWorkspace.textView.Touch();
 
 //   // Opening the SmartApp/seting up the SmartApp

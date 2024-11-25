@@ -11,7 +11,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{D68EC53B-9934-4EB8-A734-467FC02198EE}" version="14">
 		<children>
-			<testItem name="E2E_Transactions_SmartApp" key="{1BA02C3C-B880-4686-8955-7BD17AB37627}" group="False" parallel="False" enabled="True" testMoniker="{724E1083-4E46-4815-9ECE-6F911E7E4AA4}TC014_End2End_Transactions" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="E2E_Transactions_SmartApp" key="{1BA02C3C-B880-4686-8955-7BD17AB37627}" group="False" parallel="False" enabled="True" load="False" testMoniker="{724E1083-4E46-4815-9ECE-6F911E7E4AA4}TC014_End2End_Transactions" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -20,7 +20,7 @@
 	</testItems>
 	<variables key="{136CC9D6-CEF8-4937-988F-7A58DB67A024}" />
 	<settings key="{B1099059-36E0-4D65-8898-4A1B9AFE8665}">
-		<settingsVersion value="15.64" />
+		<settingsVersion value="15.69" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -49,7 +49,7 @@
 		<setting name="AzureDevOps_URL" type="5" value="" />
 		<setting name="BitBar_APIKey" type="5" value="3A02A0409CAF82BD00462B0A388D39C0579FB69DA89FC812C1F3219CC852D14FAA0FF68016080EA586C16E647C69D67A1ED3C4C7705A88F45810778B726D77CAD6" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
-		<setting name="BitBar_FindAndroidDevice" type="5" value="( API Level Equal to 32 )" />
+		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="869" />
 		<setting name="BitBar_FRAMEWORKID_IOS" type="2" value="0" />
@@ -198,6 +198,10 @@
 		</setting>
 		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
 		<setting name="KeyPressingDelay" type="2" value="0" />
+		<setting name="LoadTestAPIKey" type="5" value="" />
+		<setting name="LoadTestAPIKeyLogin" type="5" value="&lt;A&gt;Login to LoadNinja&lt;/A&gt; to get your API key." />
+		<setting name="LoadTestAPIKeySales" type="5" value="Want to know more &lt;A&gt;Contact Sales&lt;/A&gt;." />
+		<setting name="LoadTestAPIKeySignup" type="5" value="&lt;A&gt;Sign up for LN trial&lt;/A&gt;." />
 		<setting name="MobileSupportType" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -320,26 +324,16 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
-		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="15" colIndex="0">
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="5" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
 				<row val0="NativeSlObject" />
 				<row val0="NativeWebObject" />
-				<row val0="NativeVBObject" />
-				<row val0="NativeDelphiObject" />
-				<row val0="NativeTextObject" />
-				<row val0="NativeJavaObject" />
 				<row val0="NativeChromeObject" />
-				<row val0="NativeClrObject" />
-				<row val0="NativeCPPObject" />
 				<row val0="NativeFirefoxObject" />
-				<row val0="NativeJavaFXObject" />
-				<row val0="NativeSAPObject" />
-				<row val0="NativeQtObject" />
 				<row val0="NativeWebDriverObject" />
-				<row val0="NativeUIAObject" />
 				<row val0="NativeMSAA" />
 			</data>
 		</setting>
@@ -670,6 +664,7 @@
 		</setting>
 		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
 		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="VTAPIKey" type="5" value="" />
 		<setting name="WebCloudProvider" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
